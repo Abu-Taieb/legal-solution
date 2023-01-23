@@ -1,15 +1,34 @@
-.justice-color{
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'EB Garamond', serif;
+}
+
+.justice-color {
     color: #B68C5A;
 }
-.justice-bg-color{
+
+.justice-bg-color {
     background-color: #B68C5A;
 }
-.justice-btn{
+
+.justice-btn {
     color: #fff !important;
     background-color: #B68C5A !important;
     border: 1px solid #B68C5A !important;
 }
-.justice-btn:hover{
+
+.justice-btn:hover {
     color: #B68C5A !important;
     background-color: #fff !important;
     border: 1px solid #B68C5A !important;
