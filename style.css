@@ -22,6 +22,10 @@ h6 {
     background-color: #B68C5A;
 }
 
+.justice-submit-btn {
+    border: 2px solid #B68C5A !important;
+    
+}
 .justice-btn {
     color: #fff !important;
     background-color: #B68C5A !important;
@@ -32,6 +36,7 @@ h6 {
     color: #B68C5A !important;
     background-color: #fff !important;
     border: 1px solid #B68C5A !important;
+    transition: .3s all ease !important;
 }
 .law-image{
     height: 80px;

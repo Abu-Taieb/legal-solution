@@ -132,10 +132,10 @@
                     </div>
                     <div class="row pb-5">
                         <div class="col pb-5">
-                            <div class="d-flex flex-column flex-md-row justify-content-center gap-2">
-                                <input class="px-4 py-3 border-0 rounded w-md-75" type="search" name="" id=""
+                            <div class="d-flex flex-column flex-md-row justify-content-center w-75 m-auto gap-2">
+                                <input class="form-control py-3" type="search" name="" id=""
                                     placeholder="Search your services">
-                                <button class="btn justice-btn py-3 px-4 border-0 m-0" type="submit">Search</button>
+                                <button class="btn justice-btn py-3 border-0 m-0" type="submit">Search</button>
                             </div>
                         </div>
                     </div>
@@ -420,7 +420,50 @@
 
         <!-- === *** FAQ Section Design End === *** -->
 
-
+<section>
+    <div class="container">
+        <div class="row text-center w-75 mx-auto py-4 mt-5">
+            <div class="col text-center">
+                <h2 class="display-4 fw-bold py-3">Contact With Us</h2>
+                <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="d-flex flex-column row-cols-1 row-cols-md-2 text-center">
+                    <div class="">
+                        <img class="img-fluid " src="images/address.png" alt="">
+                        <h4 class="fw-bold fs-4 pt-4">Address</h4>
+                        <p class="text-secondary">A108 Adam Streat, New Yourk, NY535022</p>
+                    </div>
+                    <div class="">
+                        <img class="img-fluid " src="images/call.png" alt="">
+                        <h4 class="fw-bold fs-4 pt-4">Call Us</h4>
+                        <p class="text-secondary">+88 01750 000 000 <br> +88 01750 000 000</p>
+                    </div>
+                    <div class="">
+                        <img class="img-fluid " src="images/email.png" alt="">
+                        <h4 class="fw-bold fs-4 pt-4">Email Us</h4>
+                        <p class="text-secondary">info@gmail.com <br> info@gmail.com</p>
+                    </div>
+                    <div class="">
+                        <img class="img-fluid " src="images/time.png" alt="">
+                        <h4 class="fw-bold fs-4 pt-4">Working Hours</h4>
+                        <p class="text-secondary">Mon-Fri: 9am-5pm <br> Sunday: 9am-1pm</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <input class="form-control bg-light py-3 my-3 border-0" type="text" name="" id="" placeholder="Enter your name">
+                <input class="form-control bg-light py-3 my-3 border-0" type="email" name="" id="" placeholder="Enter your email">
+                <input class="form-control bg-light py-3 my-3 border-0" type="text" name="" id="" placeholder="Subject">
+                <textarea class="form-control bg-light py-3 my-3 border-0" name="" id="" cols="30" rows="5" placeholder="Your message"></textarea>
+                <input class="form-control btn justice-btn py-3 my-3" type="submit" value="Send Message">
+            </div>
+        </div>
+    </div>
+</section>
 
 
     </main>
@@ -428,21 +471,13 @@
 
 
 
-
-
-
-
-
-
-
-
     <!-- === *** Footer Section Design Start === *** -->
     <footer class="bg-dark">
         <div class="container mx-auto text-light">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4   py-5">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 py-5">
                 <div class="col py-4 px-5">
                     <img src="images/Group 37.png" alt="">
-                    <p class="py-5">There are many variations of passages of Lorem Ipsum available, but
+                    <p class="py-5 fs-6">There are many variations of passages of Lorem Ipsum available, but
                         the majority have suffered alteration in some form, by injected humour.</p>
                 </div>
                 <div class="col px-5">
@@ -467,35 +502,27 @@
                 </div>
                 <div class="col px-5">
                     <h4 class="fw-bold fs-3 py-4">Contact Now</h4>
-                    <div class=""><p class="">555 4th 5t NW, Washington DC 20530, United States</p></div>
+                    <div class=""><p class="fs-6">555 4th 5t NW, Washington DC 20530, United States</p></div>
                     <div class="">
-                        <p class="">+88 01750 000 000 <br> +88 01750 000 000</p>
+                        <p class="fs-6">+88 01750 000 000 <br> +88 01750 000 000</p>
                     </div>
                     <div class="">
-                        <p class="">info@gmail.com <br> info@gmail.com</p>
+                        <p class="fs-6">info@gmail.com <br> info@gmail.com</p>
                     </div>
                 </div>
                 <div class="col pl-5">
                     <h4 class="fw-bold fs-3 py-4">Subscribe</h4>
                     <p class="">Subscribe for our latest & article. We won't give you spam mails</p>
-                    <input class="px-3 py-2 border-0 rounded w-100" type="email" name="" id="" placeholder="Email address">
+
+                    <div class="input-group">
+                        <input class="form-control py-2 justice-submit-btn" type="email" name="" id="" placeholder="Email address" aria-describedby="inputGroupSizing">
+                        <span class="input-group-text justice-btn" id="inputGroupSizing">Send</span>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
     <!-- === *** Footer Section Design End === *** -->
-
-
-
-
-
-
-
-
-
-
-
-
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
