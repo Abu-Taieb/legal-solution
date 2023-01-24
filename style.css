@@ -21,6 +21,9 @@ h6 {
 .justice-bg-color {
     background-color: #B68C5A;
 }
+.justice-input-bg-color {
+    background-color: #b68c5a29;
+}
 
 .justice-submit-btn {
     border: 2px solid #B68C5A !important;
